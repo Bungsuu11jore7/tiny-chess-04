@@ -1,0 +1,6 @@
+Tiny Chess Engine in 4 KB of Python — make.fun tiny-chess-01
+
+Engine: 0x88 board, alpha-beta + iterative deepening + transposition table
++ quiescence + null-move pruning + late-move reductions + check extensions
++ killer ordering, incremental eval, Zobrist hashing, fixed node budget
+per move, deterministic. Entry point: main.py (stdlib only).
